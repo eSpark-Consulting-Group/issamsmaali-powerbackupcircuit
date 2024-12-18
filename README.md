@@ -2,7 +2,8 @@
 #### Client Name: Issam Smaali
 
 ## Project Requirements
-- Design a circuit to handle input from a primary power source (5V) and seamlessly switch to a backup power supply using supercapacitors
+- Design a circuit to handle input from a primary power source (5V) and seamlessly switch to a backup power supply using supercapacitors.
+- Use 2 x Supercapacitors in series to be able to achieve a maximum backup time of around 80 seconds.
 - Integrate components like supercapacitor chargers, boost converters , and power filtering circuits.
 - Ensure the backup system provides stable output voltage during transitions between main power and backup mode.
 - Optimize efficiency and performance to meet system requirements.
@@ -24,7 +25,7 @@ Illustrated below is a proposed concept of handling the design requirements. Key
 2. When the main power recovers, the circuit automatically supplies the load from the mains and starts recharging the supercap.
 
 #### Discrete Charger
-A discrete charger using “TPS25940A eFuse”. When the eFuse is enabled, the super capacitor voltage starts building up after the eFuse turn ON delay and charges a 20F supracapacitor to 2.7v and to its rated capacity without thermal shutdown. During backup operation, a Schottky diode prevents the current flow from Vout to VIN to prevent any additional load on the backup power system. Similarly, the SuperCap charger circuit must have reverse current blocking capability to avoid draining the super capacitor. When the main power restores, it is important to limit the charging (inrush) current for the discharged super capacitor to avoid disturbance on the system voltage.
+A discrete charger using “TPS25940A eFuse”. When the eFuse is enabled, the super capacitor voltage starts building up after the eFuse turn ON delay and charges supracapacitor to 2.7v and to its rated capacity without thermal shutdown. During backup operation, a Schottky diode prevents the current flow from Vout to VIN to prevent any additional load on the backup power system. Similarly, the SuperCap charger circuit must have reverse current blocking capability to avoid draining the super capacitor. When the main power restores, it is important to limit the charging (inrush) current for the discharged super capacitor to avoid disturbance on the system voltage.
 
 #### Boost Converter
 The Boost converter “TPS61022RWUT” can handle a very low input voltage of 0.5v, enabling most of the energy stored in the supracapacitor to be used. It provides a stable output voltage of 3.9v at 200mA. Disable the controller where the input voltage Vin is present by adding a diode connecting the boost feedback.

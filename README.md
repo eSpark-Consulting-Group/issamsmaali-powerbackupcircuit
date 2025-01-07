@@ -33,4 +33,5 @@ The Boost converter “TPS61022RWUT” can handle a very low input voltage of 0.
 ### PCB Description
 #### Overview of available space
 The diagram below illustrates what space is available on the PCB for making additions required above. This will give a good idea in determining the size and volume of components to be used in the design. The hatched / crossed area is the place where new circuitry should reside:
+
 ![image](https://github.com/user-attachments/assets/42a35008-9995-4016-8fbf-6c0762bbd6f3)

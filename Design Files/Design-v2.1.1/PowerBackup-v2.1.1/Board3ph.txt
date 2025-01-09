@@ -1,0 +1,17 @@
+Board Information Report
+Filename     : S:\issamsmaali-powerbackupcircuit\Design Files\Design-v2.1.1\PowerBackup-v2.1.1\Board3ph.PcbDoc
+Date         : 1/9/2025
+Time         : 4:56:25 PM
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 327
+    Connections routed, 327
+    Connections remaining, 0
+count : 4
+
+Net Track Width, Count
+    0.15mm, 99
+    0.254mm, 6
+count : 2

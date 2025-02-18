@@ -2,79 +2,66 @@
 FileName = Board3ph.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Overlay
-      File : Board3ph.GTO
+Generating : Mechanical 3
+      File : Board3ph.GM3
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Mechanical 3
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
     D18
     D19
-    D20
-    D21
+    D132
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : Board3ph.GBL
+Generating : Bottom Tenting
+      File : Board3ph.GM17
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Tenting
 
 
 Used DCodes :
-    D13
-    D15
-    D18
-    D24
-    D27
-    D108
-    D109
-    D110
-    D111
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D161
     D162
-    D163
-    D164
-    D165
-    D166
-    D167
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : Board3ph.GPB
+Generating : Top Tenting
+      File : Board3ph.GM11
+
+    Adding Layer      : Top Tenting
+
+
+Used DCodes :
+    D162
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : Board3ph.GM9
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Board3ph.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Board3ph.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -82,33 +69,13 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D24
-    D27
-    D108
-    D109
-    D110
-    D111
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D156
-    D157
-    D158
-    D159
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : Board3ph.GPT
+Generating : Top Paste
+      File : Board3ph.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -116,6 +83,9 @@ Generating : Top Pad Master
 
 
 Used DCodes :
+    D14
+    D22
+    D23
     D24
     D25
     D26
@@ -153,58 +123,42 @@ Used DCodes :
     D58
     D59
     D60
-    D108
-    D109
-    D110
-    D111
-    D123
-    D124
-    D125
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
+    D61
+    D62
 *************************************************************
 
 *************************************************************
-Generating : Mid Layer 2
-      File : Board3ph.G2
+Generating : Bottom Solder
+      File : Board3ph.GBS
 
-    Adding Layer      : Mid Layer 2
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
+    D107
     D108
     D109
     D110
     D111
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
 *************************************************************
 
 *************************************************************
@@ -219,10 +173,8 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D13
+    D14
     D22
-    D61
-    D62
     D63
     D64
     D65
@@ -283,68 +235,10 @@ Used DCodes :
     D120
     D121
     D122
-*************************************************************
-
-*************************************************************
-Generating : Bottom Tenting
-      File : Board3ph.GM17
-
-    Adding Layer      : Bottom Tenting
-
-
-Used DCodes :
-    D153
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Board3ph.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D61
-    D64
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D168
-    D169
-    D170
-    D171
-*************************************************************
-
-*************************************************************
-Generating : Top Tenting
-      File : Board3ph.GM11
-
-    Adding Layer      : Top Tenting
-
-
-Used DCodes :
-    D153
+    D123
+    D124
+    D125
+    D126
 *************************************************************
 
 *************************************************************
@@ -355,25 +249,102 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
-    D10
-    D13
+    D11
     D14
-    D17
+    D15
     D18
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 3
-      File : Board3ph.GM3
+Generating : Top Overlay
+      File : Board3ph.GTO
 
-    Adding Layer      : Mechanical 3
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
     D16
+    D17
     D18
     D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Board3ph.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D107
+    D108
+    D109
+    D110
+    D127
+    D128
+    D129
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
     D160
+    D161
 *************************************************************
 
 *************************************************************
@@ -386,26 +357,125 @@ Generating : Mid Layer
 
 
 Used DCodes :
+    D107
     D108
     D109
     D110
-    D111
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
     D150
     D151
     D152
     D153
     D154
     D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Board3ph.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D16
+    D18
+    D107
+    D108
+    D109
+    D110
+    D132
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
+    D166
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Board3ph.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D107
+    D108
+    D109
+    D110
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+*************************************************************
+
+*************************************************************
+Generating : Mid Layer 2
+      File : Board3ph.G2
+
+    Adding Layer      : Mid Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D18
+    D107
+    D108
+    D109
+    D110
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
 *************************************************************
 
 *************************************************************
@@ -418,9 +488,9 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D13
     D14
     D15
+    D16
     D18
     D20
     D22
@@ -461,14 +531,12 @@ Used DCodes :
     D58
     D59
     D60
+    D61
+    D62
+    D107
     D108
     D109
     D110
-    D111
-    D123
-    D124
-    D125
-    D126
     D127
     D128
     D129
@@ -498,102 +566,16 @@ Used DCodes :
     D153
     D154
     D155
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Board3ph.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : Board3ph.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : Board3ph.GM9
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D10
-    D18
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Board3ph.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D24
-    D27
     D156
     D157
     D158
     D159
+    D160
+    D161
+    D162
+    D163
+    D164
+    D165
 *************************************************************
 
 *************************************************************
@@ -606,11 +588,11 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D10
+    D12
     D18
-    D160
-    D172
-    D173
+    D132
+    D167
+    D168
 *************************************************************
 
 *************************************************************
@@ -623,7 +605,7 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D10
+    D12
 *************************************************************
 
 *************************************************************
@@ -632,6 +614,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D174
+    D169
 *************************************************************
 
